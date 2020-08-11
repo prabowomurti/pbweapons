@@ -1,0 +1,98 @@
+/* 
+    Document   : style-general
+    Author     : sangprabo
+*/
+
+body {
+ background-color: #fff;
+ margin: 10px 40px 40px 40px;
+ font-family: Verdana, Arial, Sans-serif;
+ font-size: 12px;
+ color: #4F5155;
+}
+
+h1 {
+ color: #444;
+ background-color: transparent;
+ border-bottom: 1px solid #D0D0D0;
+ font-size: 16px;
+ font-weight: bold;
+ margin: 2px 0 2px 0;
+ padding: 5px 0 6px 0;
+}
+
+.table {
+	display: block;
+	width: 896px;
+	margin: 0px auto;
+
+}
+.thead div{
+	background-color: #EFEFEF;	
+}
+
+.thead div, .tr div {
+	display: block;
+	width: 72px;
+	border: 1px solid #CCC;
+	float: left;
+	text-align:center;
+}
+
+
+.tr {
+	clear: left;
+}
+
+a {
+	text-decoration : underline;
+	color:blue;
+}
+
+#popup-background {
+	display: none;
+	position : fixed;
+	_position : absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #000;
+	border : 1px solid #ccc;
+	z-index : 1;
+	opacity: 0.7;
+}
+
+#popup {
+	display : none;
+	position: fixed;
+	top: 10px;
+	_position: absolute;
+	height: 600px;
+	width: 630px;
+	background: #fff;
+	-moz-border-radius: 10px;
+	border: 2px solid #ccc;
+	z-index: 2;
+	padding: 12px;
+	font-size: 14px;
+}
+
+#popup-close {
+	font-size: 15px;
+	right: 8px;
+	top: 4px;
+	position: absolute;
+	color: #999;
+	display: block;
+}
+
+#popup div {
+	width: 630px;
+	height: 600px;
+	overflow: auto;
+}
+
+#popup div h4 {
+	margin-bottom: 0px;
+}
